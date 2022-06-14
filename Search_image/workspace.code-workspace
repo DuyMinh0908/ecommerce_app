@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Downloads/hashing-search-engine"
+		}
+		{
+			"path": "../../../Documents/DACS5/Search_image"
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "bsvash",
+				"database": "ecommerce_app",
+				"username": "root",
+				"password": "root"
+			}
+		]
+	}
+}
