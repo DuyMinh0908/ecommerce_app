@@ -4,11 +4,8 @@ const serverSupportMail = 'ddminh.19it5@vku.udn.vn'
 const serverSupportPassword = 'apoqpzzgqnuhukct'
 
 const transporter = nodemailer.createTransport({
-  service: 'gmail',
-  auth: {
-    user: serverSupportMail,
-    pass: serverSupportPassword
-  }
+  host: "localhost",
+  port: 1025
 });
 
 function sendOptMail(email, otpCode){
